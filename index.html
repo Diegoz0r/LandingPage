@@ -1,159 +1,97 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganniccus Store</title>
-    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
+    <title>Gannicus Store</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <nav class="Usuario">
-            <a class="logo" href="#"><img src="imagenes/logo.png" alt="logo"></a>
-            <ul>
-                <li>
-                    <a href="#">Iniciar Sesion</a>
-                </li>
-                <li>
-                    <a href="#">Crear Cuenta</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="Menu">
-            <ul>
-                <li>
-                    <a href="index.html"><img class="home" src="imagenes/house-solid.svg" alt="Home"></a>
-                </li>
-                <li>
-                    <a href="#">Precios del mercado</a>
-                </li>
-                <li>
-                    <a href="#">¿Quienes Somos?</a>
-                </li>
-                <li>
-                    <a href="#">Expansiones</a>
-                </li>
-                <li>
-                    <a href="#">Singles</a>
-                </li>
-                <li>
-                    <a href="#">Pre-Ventas</a>
-                </li>
-                <li>
-                    <a href="#">Compramos tus cosas</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <p class="logo">Gannicus Store</p>
+            <nav>
+                <a href="#">Quienes somos?</a>
+                <a href="#">Producto</a>
+                <a href="#">Contactanos</a>
+                <a href="#">Singles</a>
+                <a href="#">Preventas</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="Presentacion">
-            <div class="Ofertas">
-                    <p>Ofertas desde 20% <a href="#"><span>Clic para conocer las ofertas</span></a></p>
-                </a>
-            </div>
-            <div class="Bienvenida">
-                <h1>Enciende tu juego</h1>
-                <p>Bienvenido a nuestra tienda, ingresa y dejannos mostrarte nuestras ofertas</p>
-                <input id="email" type="email" placeholder="Correo electronico">
-                <button>Enviar</button>
-            </div>
-            <div class="enciende">
-                <img src="imagenes/enciende tu juego.gif" alt="enciende">
-            </div>
-        </section>
-        <section class="Lanzamientos">
-            <div class="expansion1">
-                <div><img src="imagenes/maze of memories.png" alt="maze"></div>
-                <div><h2>Maze of memories</h2></div>
-                <div>
-                    <p>
-                   El set completo Maze of Memories contiene 67 cartas*
-                    42 Rares 15 Super Rare 10 Ultra Rares
-                    
-                    (15 cartas también disponibles como Collector's Rare)
-                    
-                    Cada paquete de refuerzo contiene 7 cartas:
-                    1 carta foil por paquete 6 cartas raras por paquete
-                    </p>
-                    <a href="#"><button>Comprar</button></a>
-                </div>
-            </div>
-            <div class="expansion2">
-                <div><img src="imagenes/beware of traptrix.png" alt="traptrix"></div>
-                <div><h2>Beware of traptrix</h2></div>
-                <div>
-                    <p>
-                        ¡El nuevo mazo de estructura: Cuidado con Traptrix también te da otra oportunidad de recoger cartas de trampa icónicas y muchas cartas de "agujero de trampa"! Atrae a tus oponentes a una fiesta encantadora, donde regresar no es una opción.
-                    </p>
-                    <a href="#"><button>Comprar</button></a>
-                </div>
-            </div>
-            <div class="expansion3">
-                <div><img src="imagenes/photon hypernova.png" alt="photon"></div>
-                <div><h2>Photon hypernova</h2></div>
-                <div>
-                    <p>
-                        El set de refuerzo Photon Hypernova contiene 100 nuevas tarjetas:
 
-                        50 Commons 26 Super Rares 14 Ultra Rare
-                        10 Secret Rares
-                    </p>
-                </div>
+    <section id="hero">
+        <h1>Enciende tu juego</h1>
+        <button>COMPRAR!</button>
+    </section>
+
+    <section id="somos-ganiccus">
+        <div class="container">
+            <div class="img-container"></div>
+            <h2>Somos Gannicus</h2>
+            <p>Gannicus Store cuenta con mas de 2 años surtiendo a muchos duelistas a nivel nacional con sus precios competitivos, no solamente nos preocupamos por vender cartas.
+            Tambien es importante para nosotros que conozcas mas sobre el juego y puedas sacar provecho a cada una de las cartas que adquieres con nosotros.
+            </p>
+        </div>
+    </section>
+
+    <section id="proximas-expansiones">
+        <div class="container">
+            <h2>Proximas Expansiones</h2>
+            <div class="carta">
+                <h3>Structure Deck: Beware of Traptrix</h3>
+                <p>¡El nuevo mazo de estructura: Cuidado con Traptrix también te da otra oportunidad de recoger cartas de trampa icónicas y muchas cartas de "agujero de trampa"! Atrae a tus oponentes a una fiesta encantadora, donde regresar no es una opción.
+
+                    Asegúrate de revisar el set de refuerzo Photon Hypernova para obtener más cartas nuevas que pueden llevar tu nuevo mazo de estructura: ¡Cuidado con Traptrix al siguiente nivel!</p>
+                <button>Preventa</button>
             </div>
-        </section>
-    </main>
-    <div class="Futuro lanzamiento">
-        <div class="siguiente">
-           <div><img src="imagenes/speed duel gx duelist of shadows.png" alt="speed duel"></div>
-           <div><h2>Speed Duel GX: Duelist of shadows</h2></div>
-           <div>
-            <p>
-                La caja tiene 20 cartas de habilidad en total: 8 habilidades principales para los mazos preconstruidos, una habilidad adicional para cada uno de esos mazos para que puedas personalizarlo a tu gusto, y 4 cartas de habilidad más que puedes usar para construir mazos por tu cuenta. Si has elegido Speed Duel: Battle City Box y Speed Duel GX: Duel Academy Box, ¡prueba a ensamblar los Dark Scorpions del detective Zaloog!
+            <div class="carta">
+                <h3>Photon Hypernova</h3>
+                <p>¡Este conjunto de 100 cartas permite que tu mazo brille más que nunca con nuevas cartas para las estrategias "Photon" y "Galaxy" de Kite Tenjo de Yu-Gi-Oh! ¡ZEXAL! ¡Espera lo inesperado en Photon Hypernova con nuevas y poderosas cartas para descubrir que están realmente fuera de este mundo!
+                El set de refuerzo Photon Hypernova contiene 100 nuevas tarjetas:
+
+                50 Commons 26 Super Rares 14 Ultra Rare
+                10 Secret Rares
+                </p>
+                <button>Preventa</button>
+            </div>
+            <div class="carta">
+                <h3>Speed Duel GX: Duelists of Shadows</h3>
+                <p>La caja tiene 20 cartas de habilidad en total: 8 habilidades principales para los mazos preconstruidos, una habilidad adicional para cada uno de esos mazos para que puedas personalizarlo a tu gusto, y 4 cartas de habilidad más que puedes usar para construir mazos por tu cuenta. Si has elegido Speed Duel: Battle City Box y Speed Duel GX: Duel Academy Box, ¡prueba a ensamblar los Dark Scorpions del detective Zaloog!
 
                 Cada caja de Speed Duel GX: Duelists of Shadows contiene 228 cartas en total, todas utilizables en Speed Duel:
+                
+                200 Commons 
+                20 Cartas de habilidad 
+                8 (de 24) Cartas raras secretas 
+                3 de las 8 raras secretas en cada caja serán las 3 Bestias Sagradas: Uria, Señor de las Llamas Abrasadoras, Hamon, Señor del Trueno Llamativo, y Raviel, Señor de los Fantasmas</p>
+                <button>Preventa</button>
+            </div>
+        </div>
+    </section>
 
-                200 Commons 20 Cartas de habilidad 8 (de 24) Cartas raras secretas 3 de las 8 raras secretas en cada caja serán las 3 Bestias Sagradas: Uria, Señor de las Llamas Abrasadoras, Hamon, Señor del Trueno Llamativo, y Raviel, Señor de los Fantasmas
-            </p>
-           </div>
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✅ Envios a nivel nacional</li>
+                <li>✅ Soporte 1:1</li>
+                <li>✅ Distintas paqueterias</li>
+                <li>✅ Programa de beneficios</li>
+            </ul>
         </div>
-    </div>
+    </section>
+
+    <section id="singles">
+        <h2>Quieres alguna carta en particular?</h2>
+        <button>Comprar singles</button>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy;Gannicus Store 2023</p>
+        </div>
+    </footer>
 </body>
-<footer>
-    <div class="redes">
-        <a class="facebook" href="#"><img src="imagenes/facebook.svg" alt="facebook"></a>
-        <a class="twitter" href="#"><img src="imagenes/twitter.svg" alt="twitter"></a>
-        <a class="instagram" href="#"><img src="imagenes/instagram.svg" alt="instagram"></a>
-        <a class="correo" href="#"><img src="imagenes/envelope-solid.svg" alt="correo"></a>
-    </div>
-    <div class="Informacion">
-        <div class="Nosotros">
-            <ul>
-                <h3>Nosotros</h3>
-                <a href="#">Contactanos</a>
-                <a href="#">Quienes somos?</a>
-                <a href="#">Trabaja con nosotros</a>
-            </ul>
-        </div>
-        <div class="Legal">
-            <ul>
-                <h3>Legal</h3>
-                <a href="#">Privacidad</a>
-                <a href="">Terminos y condiciones</a>
-                <a href="#">Politicas</a>
-            </ul>
-        </div>
-        <div class="Productos">
-            <ul>
-                <h3>Productos</h3>
-                <a href="#">Expansiones</a>
-                <a href="#">Estructurados</a>
-                <a href="#">Singles</a>
-            </ul>
-        </div>
-    </div>
-    <div class="Derechos">
-        <p>© 2023 Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos.</p>
-    </div>
-</footer>
 </html>
